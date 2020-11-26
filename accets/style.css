@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+.header {
+    background-image: linear-gradient(to right bottom, #4dbffe, #46b3f5, #3fa7ec, #3b9be3, #378fd9);
+    color: #fff; 
+    padding-top: 63px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.title {
+    font-size: 37px;
+    width: 570px;
+    margin-top: 130px;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.intro {
+    width: 370px;
+    line-height: 1.6em;
+    letter-spacing: 0.02em;
+    margin-top: 45px;
+}
+
+.btn {
+    background-color: #ffd429;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #2e2a1b;
+    display: block;
+    width: 220px;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 46px;
+    font-weight: 900;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #ffcc00;
+}
+
+.future {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.waiting {
+    text-align: center;
+    font-size: 30px;
+}
+
+.advantages {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.advantage {
+    width: 310px;
+    text-align: center;
+    line-height: 1.6em;
+    letter-spacing: 0.02em;
+    padding-top: 170px;
+}
+
+.first_im {
+    background: url('../accets/img/icon1.jpeg') no-repeat  120px 70px;
+}
+
+.second_im {
+    background: url('../accets/img/icon2.jpeg') no-repeat 120px 70px;
+}
+
+.thirt_im {
+    background: url('../accets/img/icon3.jpeg') no-repeat 120px 70px;
+}
+
+.skill_title{
+    font-size: 19px;
+}
+
+.skill_text {
+    margin-top: 7px;
+}
+
+.ticket {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #ecf3f8;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin-top: 62px;
+}
+
+.input {
+    width: 343px;
+    height: 48px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 25px;
+    margin-bottom: 16px;
+    
+}
+
+.btn-form {
+    border: 0;
+    cursor: pointer;
+    margin-top: 0;
+    width: 343px;
+}
+
+.footer {
+    background-color: #164d7a;
+    text-align: center;
+    font-size: 14px;
+    padding: 60px 0;
+    color: #fff;
+    width: 100%;
+}
+
+
+
