@@ -13,7 +13,7 @@ body {
 .header {
     background-image: linear-gradient(to right bottom, #4dbffe, #46b3f5, #3fa7ec, #3b9be3, #378fd9);
     color: #fff; 
-    padding-top: 63px;
+    padding: 0 0px 60px 0;
 }
 
 .container {
@@ -25,7 +25,6 @@ body {
 .wrapper {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 100px;
 }
 
 .title {
@@ -74,7 +73,7 @@ body {
 }
 
 .advantages {
-    padding-top: 70px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 120px;
@@ -89,15 +88,15 @@ body {
 }
 
 .first_im {
-    background: url('../accets/img/icon1.jpeg') no-repeat  120px 70px;
+    background: url('../accets/img/icon1.jpeg') no-repeat  125px 70px;
 }
 
 .second_im {
-    background: url('../accets/img/icon2.jpeg') no-repeat 120px 70px;
+    background: url('../accets/img/icon2.jpeg') no-repeat 130px 70px;
 }
 
 .thirt_im {
-    background: url('../accets/img/icon3.jpeg') no-repeat 135px 70px;
+    background: url('../accets/img/icon3.jpeg') no-repeat 140px 70px;
 }
 
 .skill_title{
@@ -149,5 +148,61 @@ body {
     width: 100%;
 }
 
+/*Responsive*/
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .offer {
+        width: 100%;
+    }
+    .travelling {
+        display: block;
+        width: 641px;
+        margin: 70px auto 0;
+    }
+    .advantages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .travelling {
+        width: 100%; 
+    }
+    .title {
+        width: 100%;
+    }
+    .input {
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .intro {
+        width: 100%;
+    }
+}
 
 
