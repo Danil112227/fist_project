@@ -13,7 +13,7 @@ body {
 .header {
     background-image: linear-gradient(to right bottom, #4dbffe, #46b3f5, #3fa7ec, #3b9be3, #378fd9);
     color: #fff; 
-    padding: 0 0px 60px 0;
+    padding: 60px 0px px 0;
 }
 
 .container {
